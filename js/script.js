@@ -22,7 +22,7 @@ setInterval(() => {
 
 
 
-
+// ADD Messages to the DataBase 
 window.onkeydown=(e)=>{
   if(e.key=="Enter"){
     update()
