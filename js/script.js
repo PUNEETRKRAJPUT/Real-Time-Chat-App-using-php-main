@@ -28,10 +28,7 @@ window.onkeydown=(e)=>{
     update()
   }
 }
-function update(){
-  let msg=input_msg.value;
-  input_msg.value="";
-  fetch(`addMsg.php?msg=${msg}`).then(
+
     r=>{
       if(r.ok){
         return r.text();
